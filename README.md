@@ -3,6 +3,7 @@
 ## Table of Contents
 1. [Problem Statement](README.md#problem_statement)
 1. [Usage Instructions](README.md#usage_instructions)
+1. [Test](README.md#test)
 1. [Complaints](README.md#complaints)
 
 ## Problem Statement
@@ -19,7 +20,7 @@ CBSA09 | CBSA_T | No. of different TRACTs | Total(Population in 2000) | Total(Po
 
 ## Usage Instructions
 
-`python3 src/consumer_complaints.py [ (optional) -i '<input_file_name_with_path>' -o '<output_file_name_with_path>' ]`
+`python3 src/population.py [ (optional) -i '<input_file_name_with_path>' -o '<output_file_name_with_path>' ]`
 
 * `<input_file_name_with_path>` - file name with relative path in linux style. No input filename defaults to `./input/censustract-00-10.csv`.
 * `<output_file_name_with_path>` - file name with relative path in linux style. No output filename defaults to `./output/report.csv`.
